@@ -14,3 +14,9 @@ trim_trailing_whitespace = true
 
 [composer.json]
 indent_size = 2
+
+[{*.yml,*.yaml}]
+indent_size = 2
+
+[{*.md,*.txt}]
+trim_trailing_whitespace = false
