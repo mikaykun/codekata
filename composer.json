@@ -1,9 +1,14 @@
 {
+  "license": "MIT",
   "minimum-stability": "stable",
   "prefer-stable": true,
+  "require": {
+    "php": "^8.1",
+    "ext-dom": "*",
+    "ext-simplexml": "*"
+  },
   "require-dev": {
     "ext-json": "*",
-    "ext-simplexml": "*",
     "phpunit/phpunit": "^10"
   },
   "config": {
