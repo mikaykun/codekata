@@ -24,7 +24,11 @@ final class XMLConvertTest extends TestCase
             [
                 '<Ref bOwnWindow="false" strAddress="(02389) 123456" strProtocol="tel:" strQuickInfo="">(02389) 123456</Ref>',
                 '<a href="tel:(02389) 123456">(02389) 123456</a>'
-            ]
+            ],
+            [
+                '<Ref bOwnWindow="false" strAddress="(02389) 123456" strProtocol="tel:" strQuickInfo=""><b>(02389)</b> 123456</Ref>',
+                '<a href="tel:(02389) 123456"><b>(02389)</b> 123456</a>'
+            ],
         ];
     }
 
