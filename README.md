@@ -7,5 +7,5 @@ Or a simple challenge for yourself. Have fun!
 
 1. Clone this repository
 2. Run `composer install`
-3. Run `phpunit` if installed local or `docker run --rm -v $(pwd):/app jitesoft/phpunit --configuration phpunit.xml`
+3. Run `phpunit` if installed local or `docker run --rm -v $(pwd):/app jitesoft/phpunit`
 4. Start coding!

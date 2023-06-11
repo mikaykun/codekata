@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.1/phpunit.xsd"
+    xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.0/phpunit.xsd"
     colors="true"
     failOnRisky="true"
     beStrictAboutChangesToGlobalState="true"
@@ -9,6 +9,7 @@
     beStrictAboutTestsThatDoNotTestAnything="true"
     beStrictAboutTodoAnnotatedTests="true"
     beStrictAboutCoverageMetadata="false"
+    bootstrap="vendor/autoload.php"
 >
     <testsuites>
         <testsuite name="unit">
@@ -18,9 +19,4 @@
     <logging>
         <junit outputFile="var/log/junit.xml"/>
     </logging>
-    <source>
-        <include>
-            <directory>src</directory>
-        </include>
-    </source>
 </phpunit>

@@ -14,5 +14,9 @@ final class StringHelperTest extends TestCase
         $this->assertEquals('a', StringHelper::firstNonRepeatingCharacter('a'));
         $this->assertEquals('t', StringHelper::firstNonRepeatingCharacter('stress'));
         $this->assertEquals('T', StringHelper::firstNonRepeatingCharacter('sTreSS'));
+
+        $this->assertEquals('H', StringHelper::firstNonRepeatingCharacter('Hello World'));
+
+        $this->assertEquals('', StringHelper::firstNonRepeatingCharacter('aabbccddeeff'));
     }
 }
